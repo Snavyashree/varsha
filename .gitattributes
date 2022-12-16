@@ -1,2 +1,58 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+df=pd.read_csv("C:/Users/Admin/Downloads/archive (5)/Alphabet Stock.csV")
+print(df)
+
+pwd
+
+df.describe()
+
+cars_df=pd.read_csv("C:/Users/Admin/Downloads/archive (2)/Cars93.csv")
+print(cars_df)
+
+df.isnull()
+
+df.notna()
+
+cars_df.isnull()
+
+cars_df.notna()
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+df=pd.read_csv("C:/Users/Admin/Downloads/archive (2)/House_price.csv",header=0)
+print(df)
+
+pwd
+
+df.head()
+
+df.shape
+
+df.describe()
+
+sns.jointplot(x='n_hot_rooms',y='price',data=df)
+
+sns.jointplot(x="rainfall",y="price",data=df)
+
+df.head()
+
+
+
+sns.countplot(x="airport",data=df)
+
+sns.countplot(x="waterbody",data=df)
+
+sns.countplot(x="bus_ter",data=df)
+
+1.missing values variables in n_hos_bods
+2.skewness or outliers in crime rate
+3.outliers in n_hot_rooms and rainfall
+4.bus_ter has only yes values
+
+
+
